@@ -1,4 +1,4 @@
-const { DataTypes } = requrie('sequelize')
+const { DataTypes } = require('sequelize')
 const sequelize = require('../sequelize')
 
 const Message = sequelize.define('Message', {
